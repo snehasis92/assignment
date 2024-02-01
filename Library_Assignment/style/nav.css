@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    height: 60px;
+    background-color: rgb(0, 36, 48);
+}
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+}
+ul li {
+    list-style: none;
+}
+nav a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+
+}
+nav ul a:hover {
+    background-color: rgb(0, 61, 82);
+    text-decoration: underline;
+}
+.btn {
+    display: flex;
+    padding: 0px;
+}
+.btn a {
+    padding: 10px;
+}
+#logOut , .btn button{
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 2px solid deepskyblue;
+    background-color: deepskyblue;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    transition: all .4s ease-in;
+}
+ .btn button:hover {
+    border: 2px solid rgb(0, 80, 119);
+    background-color: rgb(0, 80, 119);
+    cursor: pointer;
+}
+
+.lol{
+    text-align: right;
+}
+#logOut{
+    margin-top: 10px;
+    cursor: pointer;
+}

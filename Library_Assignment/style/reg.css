@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    width: 100vw;
+    height: 90vh;
+    padding-top: 50px;
+    background:url(https://images.unsplash.com/photo-1473893604213-3df9c15611c0?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) center center/cover;
+}
+.form-header{
+    width: 520px;
+    min-height: 370px;
+    margin: 0px auto;
+    padding: 30px 10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px black;
+    background-color: rgba(255, 255, 255, 0.551);
+}
+.form-header h2{
+    color: rgb(48, 0, 87);
+}
+form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    padding: 10px;
+}
+form h3{
+    width: 130px;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 30px;
+}
+form input{
+    width: 290px;
+    margin: 20px 0px;
+    font-size: 14px;
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid rgb(47, 47, 47);
+    border-radius: 4px
+}
+.gender select{
+    width: 200px;
+    text-align: center;
+    padding: 4px 0px;
+}
+form label{
+    font-size: 11px;
+    color: rgb(95, 95, 95);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin: 50px 0px 0px 10px;
+}
+.submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.submit input{
+    padding: 5px 10px ;
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    background-color: rgba(255, 162, 0, 0.663);
+    color: rgb(74, 74, 74);
+    width: 200px;
+    font-weight: 600;
+    transition: all .4s ease-out;
+}
+.submit input:hover{
+    padding: 5px 10px ;
+    border: 2px solid rgb(250, 179, 1);
+    background-color: rgba(255, 162, 0, 0.963);
+    border-radius: 20px;
+    color: black;
+    width: 200px;
+    font-weight: 600;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.errorMsg{
+    color: rgb(13, 147, 196);
+    position: absolute;
+    top: 60px;
+    left: calc(106vw / 2);
+}
+.caa{
+    margin-top: 30px;
+    width: 150%;
+}
+#caa{
+    text-align: end;
+    font-size: 13px;
+    color: gray;
+}
+#caa:hover{
+    text-align: end;
+    font-size: 13px;
+    color: rgb(20, 146, 181);
+}
